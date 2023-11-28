@@ -8,6 +8,9 @@ brain-games:
 brain-even:
 	poetry run python -m brain_games.scripts.brain_even
 
+brain-calc:
+	poetry run python -m brain_games.scripts.brain_calc
+
 install:
 	poetry install
 
