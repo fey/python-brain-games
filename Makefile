@@ -11,6 +11,9 @@ brain-even:
 brain-calc:
 	poetry run python -m brain_games.scripts.brain_calc
 
+brain-gcd:
+	poetry run python -m brain_games.scripts.brain_gcd
+
 install:
 	poetry install
 
