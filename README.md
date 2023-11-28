@@ -16,3 +16,11 @@ make install
 make lint
 make brain-games
 ```
+
+# asciinema
+
+* calc - <https://asciinema.org/a/62DWFL1h0BnxCxq90ofx1nmJh>
+* even - <https://asciinema.org/a/fsA0Oe0Wi4SJYQhaYC9yRJgLh>
+* gcd - <https://asciinema.org/a/mOaTXaURcIkwqhveXsEwZGCua>
+* prime - <https://asciinema.org/a/VqqkKgLwXdsTUMamQojDa8F8d>
+* progression - <https://asciinema.org/a/IJfrgU1VkJLcn5E8TcfvNGHjw>
