@@ -3,6 +3,7 @@ import random
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def is_even(n):
     return n % 2 == 0
 
@@ -26,7 +27,7 @@ def start_even():
     if (user_answer == answer):
         print('Correct!')
     else:
-        print(f"'yes' is wrong answer ;(. Correct answer was 'no'.")
+        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{answer}'.")
         print(f"Let's try again, {name}!")
         return
 
