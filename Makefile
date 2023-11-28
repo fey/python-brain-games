@@ -17,6 +17,9 @@ brain-gcd:
 brain-progression:
 	poetry run python -m brain_games.scripts.brain_progression
 
+brain-prime:
+	poetry run python -m brain_games.scripts.brain_prime
+
 install:
 	poetry install
 
