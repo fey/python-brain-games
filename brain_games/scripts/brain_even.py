@@ -1,8 +1,8 @@
-import prompt
 import random
 
-DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+from .engine import run_game, ROUNDS_COUNT
 
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def is_even(n):
     return n % 2 == 0
@@ -16,22 +16,16 @@ def build_round():
 
 
 def start_even():
-    (question, answer) = build_round()
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
-    print("Welcome to the Brain Games!")
-    print(DESCRIPTION)
-    print(f"Question: {question}")
-    user_answer = prompt.string('Your answer: ')
+    i = 0
 
-    if (user_answer == answer):
-        print('Correct!')
-    else:
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{answer}'.")
-        print(f"Let's try again, {name}!")
-        return
+    rounds = []
 
-    print(f"Congratulations, {name}!")
+    while (i < ROUNDS_COUNT):
+        round = build_round()
+        rounds.append(round)
+        i += 1
+
+    run_game(DESCRIPTION, rounds)
 
 
 def main():
