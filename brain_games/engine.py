@@ -21,7 +21,7 @@ def run_game(description, rounds):
         if (user_answer == answer):
             print('Correct!')
         else:
-            print(get_try_again_message())
+            print(get_try_again_message(answer, user_answer))
             print(f"Let's try again, {name}!")
             return
 
