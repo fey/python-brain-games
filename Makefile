@@ -18,6 +18,7 @@ lint:
 	poetry run flake8 .
 
 build:
+	rm -rf dist/*
 	poetry build
 
 publish:
