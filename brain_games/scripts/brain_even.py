@@ -4,6 +4,7 @@ from .engine import run_game, ROUNDS_COUNT
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def is_even(n):
     return n % 2 == 0
 

@@ -2,6 +2,7 @@ import prompt
 
 ROUNDS_COUNT = 3
 
+
 def run_game(description, rounds):
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
