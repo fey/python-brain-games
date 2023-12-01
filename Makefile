@@ -3,22 +3,22 @@ python-version:
 	python --version
 
 brain-games:
-	poetry run python -m brain_games.scripts.brain_games
+	poetry run brain-games
 
 brain-even:
-	poetry run python -m brain_games.scripts.brain_even
+	poetry run brain-even
 
 brain-calc:
-	poetry run python -m brain_games.scripts.brain_calc
+	poetry run brain-calc
 
 brain-gcd:
-	poetry run python -m brain_games.scripts.brain_gcd
+	poetry run brain-gcd
 
 brain-progression:
-	poetry run python -m brain_games.scripts.brain_progression
+	poetry run brain-progression
 
 brain-prime:
-	poetry run python -m brain_games.scripts.brain_prime
+	poetry run brain-prime
 
 install:
 	poetry install
